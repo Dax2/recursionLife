@@ -1,4 +1,6 @@
 // wrapping my head around a simple addition function.
+// later adding some strings to make interesting yet worthless play between numbers generated and strings in relation to the numbers.
+//they work a little like console logs to visualize whats happening INSIDE the function. 
 
 function add(x){
     if (x<=0){

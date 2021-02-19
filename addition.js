@@ -13,16 +13,17 @@ function add(x){
 //just ramping up to my masterpiece by introducing strings. 
 
   function blaber(n){                                       
-    if (n <=0){
-   return 'ya' + 0;
+    if (n <=0){                                     //ok so base case here. This is how I want this thing to end. 
+   return 'ya' + 0;                                 //this may give me an issue as it hard codes "ya + 0" where as "'ya'+ n" may be more appropriate. 
      } else {
-        return  'yo' + n + blaber(n - 1);           //i have no idea what the point of this is. 
+        return  'yo' + n + blaber(n - 1);          
     }
 
 }
-
 blaber(3)           
 "yo3yo2yo1ya0"
+
+
 
 //very underwhelming masterpiece
 

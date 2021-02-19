@@ -12,14 +12,17 @@ function add(x){
 
 //just ramping up to my masterpiece by introducing strings. 
 
-  function blaber(n){
+  function blaber(n){                                       
     if (n <=0){
    return 'ya' + 0;
      } else {
-        return  'yo' + n + blaber(n - 1);
+        return  'yo' + n + blaber(n - 1);           //i have no idea what the point of this is. 
     }
 
 }
+
+blaber(3)           
+"yo3yo2yo1ya0"
 
 //very underwhelming masterpiece
 

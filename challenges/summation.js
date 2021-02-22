@@ -7,3 +7,5 @@ var summation = function (num) {
   
   return result;
 }
+
+//commit
